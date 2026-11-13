@@ -119,6 +119,11 @@
     emit();
     return {
       environment, play, setReduced,
+      replay() {
+        if (reduced || !capable) return false;
+        paint(adapter.initialValue ?? 50, false);
+        return play();
+      },
       pause: () => stop('paused'),
       interrupt: () => stop('manual'),
       input(next) { stop('manual'); paint(next, !reduced); },
@@ -299,7 +304,10 @@
       }
     });
     pause.addEventListener('click', pauseAll);
-    replay.addEventListener('click', () => controller.play());
+    replay.addEventListener('click', () => {
+      idleCue.suppress();
+      controller.replay();
+    });
     demo.querySelectorAll('[data-v9-compare-show]').forEach(button => {
       button.addEventListener('focus', interrupt);
       button.addEventListener('click', () => {
