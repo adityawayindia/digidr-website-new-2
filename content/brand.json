@@ -6,26 +6,16 @@
     "https://digidr.app/js/footer.js",
     "https://digidr.app/"
   ],
-  "usage": "Official DigiDr assets used under the owner’s request. The original PNG is retained unchanged. The displayed SVG preserves its alpha silhouette and paints the mark directly in black and royal blue.",
+  "usage": "Official DigiDr assets used under the owner request. The original PNG is displayed unchanged in the header and footer.",
   "logo": {
-    "file": "assets/brand/digidr-logo-royal.svg",
-    "format": "SVG",
+    "source_url": "https://digidr.app/img/logo.png",
+    "bytes": 32211,
+    "sha256": "5e492fb6dd1f3163782df30eb4e7cacf802dac2774b6598795aa03cd8c0dfdd0",
+    "format": "PNG",
     "width": 500,
     "height": 136,
-    "bytes": 43765,
-    "sha256": "04af27bea647ae9a976fd1c50581edf72d60cf599048bd67b440df301b5a6c56",
-    "modified": true,
-    "treatment": "Original silhouette with explicit black and royal blue fills; no color-matrix filter.",
-    "source_asset": {
-      "source_url": "https://digidr.app/img/logo.png",
-      "bytes": 32211,
-      "sha256": "5e492fb6dd1f3163782df30eb4e7cacf802dac2774b6598795aa03cd8c0dfdd0",
-      "format": "PNG",
-      "width": 500,
-      "height": 136,
-      "modified": false,
-      "file": "assets/brand/digidr-logo.png"
-    }
+    "modified": false,
+    "file": "assets/brand/digidr-logo.png"
   },
   "favicon": {
     "source_url": "https://digidr.app/favicon/favicon.ico",
@@ -38,15 +28,9 @@
     "file": "assets/brand/favicon.ico"
   },
   "display_treatment": {
-    "name": "Framed emblem",
+    "name": "Original logo",
     "selected_by_owner": true,
     "original_bitmap_unchanged": true,
-    "palette": [
-      "#000000",
-      "#2458F6",
-      "#FFFFFF"
-    ],
-    "frame": "Thin royal blue border around the emblem; open wordmark",
-    "renderer": "Self-contained assets/brand/digidr-logo-royal.svg with an alpha mask and explicit fills; frame in assets/css/premium-v9.css"
+    "renderer": "assets/brand/digidr-logo.png without color filters or an added frame"
   }
 }

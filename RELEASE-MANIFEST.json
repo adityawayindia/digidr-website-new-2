@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "StartHere.txt",
-      "bytes": 1272,
-      "sha256": "6351ead13d1225c5e4305d11ab4dcc0f1dbd4c8593e4439ad2fef8cbbc6ade2d"
+      "bytes": 1254,
+      "sha256": "aa3044a0d6ba1408084b135eeb5c3741512745a975c6805c11b1f31560e6385f"
     },
     {
       "path": "_headers",
@@ -14,13 +14,8 @@
     },
     {
       "path": "_redirects",
-      "bytes": 415,
-      "sha256": "6ccc7fffdfa4dfe0e19aaf72dedf342046b93fb9e202f0a08f98df21034357cf"
-    },
-    {
-      "path": "assets/brand/digidr-logo-royal.svg",
-      "bytes": 43765,
-      "sha256": "04af27bea647ae9a976fd1c50581edf72d60cf599048bd67b440df301b5a6c56"
+      "bytes": 359,
+      "sha256": "14528418a1039fb563ecb02f23acc452a6170422898d43ce97088110b39fa6a4"
     },
     {
       "path": "assets/brand/digidr-logo.png",
@@ -39,8 +34,8 @@
     },
     {
       "path": "assets/css/deck-v11.css",
-      "bytes": 42344,
-      "sha256": "731ae9451b45ecdf92fa5454c36b0c648f0d9dc1c77232ea5d9fbc7431814db1"
+      "bytes": 42994,
+      "sha256": "390ab4f9bc6c3193678114e72ad36a5f34533fb5cf278efe0196d9331e7756e1"
     },
     {
       "path": "assets/css/doctor-refinements-v9.css",
@@ -64,8 +59,8 @@
     },
     {
       "path": "assets/css/hero-layout-v13.css",
-      "bytes": 6382,
-      "sha256": "39b92b090d188cf76d44061b036dd41b2d2e57abd6030863fdc844eae7ae681b"
+      "bytes": 6441,
+      "sha256": "659a8515b91246e5c632fcf225740a74b20891b0807c248339334c59de6b2030"
     },
     {
       "path": "assets/css/home-depth-v12.css",
@@ -79,13 +74,13 @@
     },
     {
       "path": "assets/css/home-proof-v15.css",
-      "bytes": 9285,
-      "sha256": "01086ef97a6c7b42ea817cff0c5b0e6d9ff8da23e88cc3571564d7d86f3230fc"
+      "bytes": 9292,
+      "sha256": "a035c6f5f3e665a91b522b783387e74887867345b10700497b804db3c96433bd"
     },
     {
       "path": "assets/css/home-story-v14.css",
-      "bytes": 5729,
-      "sha256": "e2925ae8e95163bd031ee3c5c7134fb66dbee7b16214e24f0b928480b1326344"
+      "bytes": 7988,
+      "sha256": "22df33207d61a21eb6b1bf536b1014a9a7f5f6440fbb2481b1879a7cbc7836d1"
     },
     {
       "path": "assets/css/outline-diagrams-v10.css",
@@ -94,8 +89,8 @@
     },
     {
       "path": "assets/css/premium-motion-v8.css",
-      "bytes": 6330,
-      "sha256": "b3f6d58a515e889301b524ee12c56573eba46032638fab530a423d4b995e9bf3"
+      "bytes": 6328,
+      "sha256": "c2ae7d3352bd3ee47bee4c0f136a7c00777558469afbbb7ba3bc99778b9e05c4"
     },
     {
       "path": "assets/css/premium-polish-v7.css",
@@ -139,8 +134,8 @@
     },
     {
       "path": "assets/css/premium-v9.css",
-      "bytes": 7923,
-      "sha256": "9ffdc8d8e953410ce748759f0a9de193f0cf4b110cca1dbc5c32c8fd472058fe"
+      "bytes": 11922,
+      "sha256": "7b71ff1fd35c96501802a943093d92c183c3cf104a75709fa54c0188e06d44be"
     },
     {
       "path": "assets/css/product-restoration-v12.css",
@@ -1204,8 +1199,8 @@
     },
     {
       "path": "content/brand.json",
-      "bytes": 1804,
-      "sha256": "3685e8ad106344939cc35af4721bdbefaa700ae786ff8d653282e5cf72597ccf"
+      "bytes": 1140,
+      "sha256": "cdce99acea2e9702b37b09e12b12e62fafa74c47321d9e5a0df8311e4ac78029"
     },
     {
       "path": "content/card-icons-v6.json",
@@ -1254,8 +1249,8 @@
     },
     {
       "path": "for-doctors.html",
-      "bytes": 60967,
-      "sha256": "0bf5bb4edec031218afdb89bc07cc7d96a0dc9e62dfdd723e71efd5ac1fceb9a"
+      "bytes": 60975,
+      "sha256": "8ac8e438f635de54de79f741c25c784618423205dd935e7a2d60777bd65af45b"
     },
     {
       "path": "howitworks.html",
@@ -1264,18 +1259,18 @@
     },
     {
       "path": "image-credits.html",
-      "bytes": 33460,
-      "sha256": "6ddf4ef387039f147ace39c4cc858614b782179497ded64e23cdc0c47447711c"
+      "bytes": 33468,
+      "sha256": "af215a8c7f73622b07089e8e35ee9f2bc886f7b6a5056b6a0716a35692e359cc"
     },
     {
       "path": "index.html",
-      "bytes": 42168,
-      "sha256": "ef281de122075f4e3ed08fee5cbe52e8582a9ae9d26e3f4d57dd39610b3941b9"
+      "bytes": 42440,
+      "sha256": "99f87b1fd0250df2befaac550111683c8f2b8ce5a7308c8d83303452d4b108a5"
     },
     {
       "path": "microsite-demo.html",
-      "bytes": 16200,
-      "sha256": "95265b14176b61ff04aacef215e2070c5783abca59de57c179a74da4afc79478"
+      "bytes": 16208,
+      "sha256": "cbf2185ddfe2bf392f145f8c7057fb6f61c0378e154e6efb8e91f77ea591417d"
     },
     {
       "path": "microsite.html",
@@ -1284,88 +1279,88 @@
     },
     {
       "path": "platform.html",
-      "bytes": 20287,
-      "sha256": "33bab2960ad1c9c18bae06a7c845d99c89822b1e3e540c090e65bceb51f0e159"
+      "bytes": 20283,
+      "sha256": "c7f4bd51c16cfacd0691e65fe7a84d84e0b57e6f44ec91fb0278323c46c56c9c"
     },
     {
       "path": "policies.html",
-      "bytes": 8749,
-      "sha256": "95edfcd1c4437b62a369b4a9dd1160aa658eb3728563e1286f5a581eac47b420"
+      "bytes": 8745,
+      "sha256": "7cf0c3d626e197da1f505c9a8bffe9a1cef1105075bc25ef10c7885c03e86482"
     },
     {
       "path": "pricing.html",
-      "bytes": 688,
-      "sha256": "dd64790997378475c8eac68cda4fa18a5f6d6b6825a8bf0e5f58ffb4808adbf8"
+      "bytes": 19130,
+      "sha256": "94d33d948c9b0957e83baeaa3267ceb7f1e146b78f9916d974f683822cfa7ce4"
     },
     {
       "path": "products/contentassist.html",
-      "bytes": 27656,
-      "sha256": "9fd42605513e104ff688fbc65c815215efd79b713e6a9ec34da1a1ddc802c709"
+      "bytes": 27655,
+      "sha256": "50502106a8fbadd903e5abde471c90633c81d15663a14b263d820e934d6c7081"
     },
     {
       "path": "products/contextengine.html",
-      "bytes": 20926,
-      "sha256": "a3d0f7ea8617c2bcfe3d430d54e5d9cf6970545e45678c9dd5187334181137b2"
+      "bytes": 20925,
+      "sha256": "cf934678f645b498dbce6fc2c10c903f3fb0977a7d2eb1fdda9e9f96fbc63fc7"
     },
     {
       "path": "products/doctorassist.html",
-      "bytes": 26183,
-      "sha256": "55d7cb794ec1d201fdbd1e7d557e6f7918f3beef60e3363a96ec7f4de04e5420"
+      "bytes": 26170,
+      "sha256": "265e3b4fbe59744692e0c753e75c5b6bc3660f8c005be3a2a7c701f4e2f23816"
     },
     {
       "path": "products/evidenceengine.html",
-      "bytes": 22423,
-      "sha256": "a490d2784699c7faef345f1cc703b5dd97df79b1d996f190b106554c2bafd032"
+      "bytes": 22422,
+      "sha256": "8c18dcf85c615adf5fb4de54b16bf062025c0f6aafb49050d7b222a12125635d"
     },
     {
       "path": "products/patientassist.html",
-      "bytes": 26518,
-      "sha256": "4488f4ca0c8ea57eede7e331604643c9aae3ab69d6f3a7743b33f0a5be1e76b8"
+      "bytes": 26505,
+      "sha256": "1bc898ced0044846581611957223a092727382fb06bc74495dbfb35f3340bf6f"
     },
     {
       "path": "products/trustengine.html",
-      "bytes": 21199,
-      "sha256": "59e780a7165613c43e58c636a78c46d2489941dc402e816dab78126047a75d36"
+      "bytes": 21198,
+      "sha256": "3f9ba71438acd747e0b4d13fe2b26dbe7a1460092f49f5f89cf68b36b153e25c"
     },
     {
       "path": "research/doctor-is-not-a-badge.html",
-      "bytes": 9426,
-      "sha256": "8e3c1b459436ebd350f4d251ed8e6dd162a73a5646eadd06c498d2adeb676c40"
+      "bytes": 9437,
+      "sha256": "69a11f1d452d5928213042731ec4204eee2888b0db8f1b6a15fa9a8573930e57"
     },
     {
       "path": "research/evidence-vs-attention.html",
-      "bytes": 9817,
-      "sha256": "5c65dffe3eb245c8aa515fcdfb39a25c486fb345c3cca488878092986030e43f"
+      "bytes": 9828,
+      "sha256": "3a3bb15a866bd428ecfa3e91ec08c5d976388bca25723f0f174209396688e9c8"
     },
     {
       "path": "research/from-post-to-patient.html",
-      "bytes": 9215,
-      "sha256": "5f598a45c9a210ec9e4f501c847183efb3c7f63d7aa8bfada80743777314737c"
+      "bytes": 9226,
+      "sha256": "6a3bd9f58e44fb1c8f72ee1e3137f89057a867ad50ff1c21ae6a33922cee82bc"
     },
     {
       "path": "research/memory-wrong-to-use.html",
-      "bytes": 9571,
-      "sha256": "bd0ccc3a3c4fdb7fc53d8aa76096cd5df6711b2d31c5f7b272d8d10193c5686f"
+      "bytes": 9582,
+      "sha256": "94b731dfc5ae81b1ba3e1970b43c1db1b1e9832fb3f3863128ece4260ff563d2"
     },
     {
       "path": "research/reflection-echo-chamber.html",
-      "bytes": 9859,
-      "sha256": "e4e9aef22f508f36f9f2edc55643edab5daec67ceb90319e32ba1b936ddab1bb"
+      "bytes": 9870,
+      "sha256": "0534a2fb1a0f762545f26ec6c19efc7e59f15ac49c049a32e452ec08eca441ad"
     },
     {
       "path": "research/the-next-question.html",
-      "bytes": 9740,
-      "sha256": "c12b94d65c0288eafc21497d4a6a00dd91635cf154e99712b06782434faf606c"
+      "bytes": 9751,
+      "sha256": "c223ecad7ef3eec17028de6e0cd359ae38162d4aa9961103d3968b9aeec421bd"
     },
     {
       "path": "research/unknowns.html",
-      "bytes": 9114,
-      "sha256": "f7bd109f002a0b11ea76b10916369832d09b65625b2ae501d34f16532a8d8693"
+      "bytes": 9125,
+      "sha256": "e74880c8e5305715bd26768d93ffb0fea6f5a2e703b3b8813c79f0eb7d4d2104"
     },
     {
       "path": "research.html",
-      "bytes": 33764,
-      "sha256": "f088ddfe4e49d7e83dec05b4efebb7411d9c6f279e038053deb1a316a0b00655"
+      "bytes": 33772,
+      "sha256": "b5f3d8b2fdb024cd482ea4a30bf79ffdfbb65977663e7f797896037d3a3b0ff5"
     },
     {
       "path": "robots.txt",
@@ -1374,148 +1369,158 @@
     },
     {
       "path": "sitemap.xml",
-      "bytes": 4884,
-      "sha256": "820ba145cc559f53d6945e47bcdbcd22a2dfe81264f8747948055394124cdafe"
+      "bytes": 4970,
+      "sha256": "f909be9be0b4d78e8684c95c658f32870d8d4a14a53ce13290dec6fdcbdccf5d"
     },
     {
       "path": "specialties/ayurveda.html",
-      "bytes": 12368,
-      "sha256": "7765f1e558ce0bdefd9cda7b3a3949f1a5dbecf889627440c6bc231f90e9d91f"
+      "bytes": 12367,
+      "sha256": "c03a14501f766da4dcf053f1884dc4fe18b52ac78eacc2e71c63144957b2276b"
     },
     {
       "path": "specialties/cardiology.html",
-      "bytes": 12210,
-      "sha256": "5707fc53469a705fa802849456ef3b166c6cdaeeaa471cfc51fac023938a23fe"
+      "bytes": 12209,
+      "sha256": "94e980343441adc82f223889ffe64669fb9d7425ef25ff28f540cf5828fd7ad6"
     },
     {
       "path": "specialties/critical-care.html",
-      "bytes": 12328,
-      "sha256": "578e51ded4361609a1b07ea5461207854dfdde9b96dc07d10e51ae961348ac45"
+      "bytes": 12327,
+      "sha256": "c603f182b15976a9b3e4ea6e00f6b62e446c677d3fe89cf8ae693cb540c01cd3"
     },
     {
       "path": "specialties/dentistry.html",
-      "bytes": 12115,
-      "sha256": "8513605a1bb0f563392eea4218e17522d519b2178a0db41bb7be5e749e2738ed"
+      "bytes": 12114,
+      "sha256": "197b8556438f0767eda750b5513a780ff14d6976c0b555814c187add87bb0245"
     },
     {
       "path": "specialties/dermatology.html",
-      "bytes": 12180,
-      "sha256": "d40b47b1ce7494ffa4180a81f43b7287fc93d2b759759114cef1b8c1175fca72"
+      "bytes": 12179,
+      "sha256": "5998802d50286b2e7343926924b70953badd9da63f4a5d505d83114c5cac39da"
     },
     {
       "path": "specialties/endocrinology.html",
-      "bytes": 12285,
-      "sha256": "6fde58d4066f6e43106b834a388551c5098567391c1612c43f14f9eb8d417d79"
+      "bytes": 12284,
+      "sha256": "22d08aa4eb68aac9f7baf7df7a653cfff1a2da65c2a5c3c9efa86064953bde6f"
     },
     {
       "path": "specialties/ent.html",
-      "bytes": 12052,
-      "sha256": "36c5016fd76fb666689cb95a85ecb6e41354697b0c560b0927e22d967c8e3e7c"
+      "bytes": 12051,
+      "sha256": "64cd358bb332552c615bc7edf1b1836329a5b1b472eb5ceda405c5d85d3f7ce9"
     },
     {
       "path": "specialties/gastroenterology.html",
-      "bytes": 12209,
-      "sha256": "29694d3c7f497aaf4de323d9ad27092da37203fbb8195e86cf1151ecaa6f80a1"
+      "bytes": 12208,
+      "sha256": "5bd8aea79da1d1da1a07a35a221e5c0130fe4d09239527ff1d0d5f662557e789"
     },
     {
       "path": "specialties/general-medicine.html",
-      "bytes": 12172,
-      "sha256": "bab2b61f17c5eeee4533cc2468b0a5c5e5f96381e18547d1831e28be537e1201"
+      "bytes": 12171,
+      "sha256": "5ec1181b060838524f6ae742fab3f20a51a5f20e428cb583e1325a0132dc077f"
     },
     {
       "path": "specialties/general-surgery.html",
-      "bytes": 12152,
-      "sha256": "8910de7fa8989e732fd2e1d721f7ca3f49a5cb01b470d033c56a271f9034d733"
+      "bytes": 12151,
+      "sha256": "7cfeb466518f9efff9e25251880e8ad76aaee2ac8ac2eb4ac24f0035abe5d85d"
     },
     {
       "path": "specialties/nephrology.html",
-      "bytes": 12041,
-      "sha256": "addb13293a5b4eac181cf4115e76b048d6149f714034e2d63ea1acb794d1db15"
+      "bytes": 12040,
+      "sha256": "5ea5eb35a57459d43512ba3b9f87d7310bbdc1f44e1bcde2252ac76dfc5c9251"
     },
     {
       "path": "specialties/neurology.html",
-      "bytes": 12038,
-      "sha256": "7ee14a0c77789971a829ccd842e493a50c4e6695058b321273ff3a2ff4997ece"
+      "bytes": 12037,
+      "sha256": "caad4ae7a07b9dfa8569a008e481574d6d2c29730efac81cf05bbb4eb9642f8f"
     },
     {
       "path": "specialties/obgyn.html",
-      "bytes": 12105,
-      "sha256": "3389b7eb5102279eb6bd36188b124aa9f3af1d3413b28e38b543a08c7cb5f669"
+      "bytes": 12104,
+      "sha256": "f407530cba29f1f13246abe22670a99cc14b0e79e2735372f4acea288c4521e3"
     },
     {
       "path": "specialties/oncology.html",
-      "bytes": 12041,
-      "sha256": "b23a4b7b21d328d4cdec3c44eb95b0cb5344386d3baf79a9f38c7dfb5ae269d9"
+      "bytes": 12040,
+      "sha256": "fa2f1c05aaf2cf2eb94f164a3d385f0676516d21cc30c40871b3c7d36603fa73"
     },
     {
       "path": "specialties/ophthalmology.html",
-      "bytes": 12212,
-      "sha256": "d4aae6acdd4b781d77ae577d050b89b29957856273a338fbb17a6af86b5f38bf"
+      "bytes": 12211,
+      "sha256": "449d8d54453a6a84431fcc8fe35790ae85239bfd5e7ecd11e65988fe954073a8"
     },
     {
       "path": "specialties/orthopedics.html",
-      "bytes": 12303,
-      "sha256": "72c304ae2d23d9bedf388a003f73ad4560eb21522cd5b8be81403887b6fabbc7"
+      "bytes": 12302,
+      "sha256": "70377aecdbba9bec5e5c590e69f7271a2ac1172646508173dfe2e64a2151061c"
     },
     {
       "path": "specialties/pain-medicine.html",
-      "bytes": 12060,
-      "sha256": "b58bcaa383a7c5dd5535d8722d72c081fc28171465c6099e961737b37c88b847"
+      "bytes": 12059,
+      "sha256": "8e47793992c3385fa9a7a9df2575f06c7a7e9b5b8395996254445ab14d960bf5"
     },
     {
       "path": "specialties/pediatrics.html",
-      "bytes": 12049,
-      "sha256": "a779774d218724880836e1cbf6f5a23567bd2e0fa92b1fa992d2a9f96328ab24"
+      "bytes": 12048,
+      "sha256": "c5dd36877691c7c2ccd00738fbdcea5477238cfa1001b2d59f70499a9a55509f"
     },
     {
       "path": "specialties/plastic-reconstructive.html",
-      "bytes": 12297,
-      "sha256": "537139446f56f6024ff4829accd1442adc9c55922683fc16856dc58527f91bb0"
+      "bytes": 12296,
+      "sha256": "dc1417c9726cefedb6dfc236aa0ff1ac5018bbea2212f347e74588162e5c4588"
     },
     {
       "path": "specialties/psychiatry.html",
-      "bytes": 12057,
-      "sha256": "c796913d887d9ae0a86ea7dbdc7e1d6eb520785ea48c9ea9fa0b80dcb8947496"
+      "bytes": 12056,
+      "sha256": "c0af8f9401da8ddf523f85a76b14b2e21ffca1d4681c920e3eb359fc88f8c4f8"
     },
     {
       "path": "specialties/pulmonology.html",
-      "bytes": 12158,
-      "sha256": "1d6e47d9b6d8034080cca461a258d84cb47101f52eacc2d72aa8df4079df188c"
+      "bytes": 12157,
+      "sha256": "2e0df8068ae13a750b48465d423eb8cdab63de507cc76eeb21e327056aeab8c2"
     },
     {
       "path": "specialties/radiology.html",
-      "bytes": 12248,
-      "sha256": "5227bb42f65db187fba6dc91b718e5f9cadc4f79421d2dceb2033263b80f2a1c"
+      "bytes": 12247,
+      "sha256": "dfdb317ccc15d4169057f09e0ca0e2bd7ecbcb3eea021f9a5c9be41abeebad21"
     },
     {
       "path": "specialties/rehabilitation.html",
-      "bytes": 12284,
-      "sha256": "5f94f1c9e90705cea88405b0dc72a894a92da74622031f479fd41c5e8f16a573"
+      "bytes": 12283,
+      "sha256": "1569e1f78d9c2edba3baedeb6fdfe1c3f8c7eded6e7c8d4ef2df26b6bd98d7de"
     },
     {
       "path": "specialties/rheumatology.html",
-      "bytes": 12047,
-      "sha256": "c1420391cfd5fb36c46ce7c717f0bfe7b07e1b0cd0e7b9824bea719a1cdb063c"
+      "bytes": 12046,
+      "sha256": "44fab09cc50fe9cc8c29f7586d55c776f9260de728be7045af30db21730ea66c"
     },
     {
       "path": "specialties/urology.html",
-      "bytes": 12087,
-      "sha256": "8511285c133e87507b3eb6cd5d139d2848efda7f6f434620b96d92deb1d7e56c"
+      "bytes": 12086,
+      "sha256": "30b13d950cc9f227f2eb4c666a8e2f53f6de9f3d6a631c28f296d47afbc260f6"
     },
     {
       "path": "specialties.html",
-      "bytes": 42620,
-      "sha256": "f1a21c00bc9fd5c60d4ad3be187a86ce9de7fcf86e2fbe22c559f0e12a7b648b"
+      "bytes": 42628,
+      "sha256": "a51696bd88dc9252e0b4695775d94af2b643fe9ded1aa0b7afa3d2e44bed2137"
     },
     {
       "path": "technology.html",
-      "bytes": 12403,
-      "sha256": "c9917ec6176aa0721d89fb776e67abe8fcefa515d0a5df2ae8ce84bd1a7ff85a"
+      "bytes": 12399,
+      "sha256": "3690ced6e635a956f97735117760b9994a8dbcf0c8006d68b4c8732aa3257023"
     },
     {
       "path": "trust.html",
-      "bytes": 27390,
-      "sha256": "8111f803fd08359b5284a81dbe5635838501295c74ba4ac60bca66d5a640f58a"
+      "bytes": 27386,
+      "sha256": "e0aefed5dee261e8259f9bcfe3fd9ca5ab50c192941c37b11519359476e393bf"
+    },
+    {
+      "path": "assets/css/pricing-page.css",
+      "bytes": 7330,
+      "sha256": "fbe0036cca25b532823f8b27cfbe83195d9d1bda82fc0761e3f889746aac89da"
+    },
+    {
+      "path": "assets/js/pricing-page.js",
+      "bytes": 4398,
+      "sha256": "c881dc942b1d832a46ff1442850a0bd24bec8108d3fd68d369536c6171c0bd25"
     }
   ]
 }

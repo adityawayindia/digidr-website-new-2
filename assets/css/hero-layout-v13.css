@@ -9,7 +9,7 @@
 .premium-v11 .v13-hero{
   padding:clamp(46px,4.5vw,84px) 0 clamp(54px,5vw,92px);
   min-height:0;
-  background:#FFFFFF;
+  background:#e3eaf2;
 }
 .premium-v11 .v13-hero-layout{
   /* The shared v11-wrap class owns width and gutters at every breakpoint. */
@@ -129,3 +129,5 @@ html:root body.premium-v11 .v13-hero .v12-evidence-label{background-color:#FFE28
   .premium-v11 .v13-hero .v8-motion-buttons button{font-size:11px;padding-inline:7px;min-width:44px}
 }
 @media(prefers-reduced-motion:reduce){.premium-v11 .v13-hero-button{transition:none}}
+
+html:root body.premium-v11 .v13-hero{background:#e3eaf2;}

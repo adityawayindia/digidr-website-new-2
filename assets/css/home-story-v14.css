@@ -67,3 +67,47 @@ body.premium-v11[data-v14-home] .v11-doctor-authority{margin-top:25px;padding-to
   body.premium-v11[data-v14-home] .v11-doctor-node{padding:23px}
   body.premium-v11[data-v14-home] .v11-doctor-centre{padding:29px 22px}
 }
+
+/* Separate product cards in the solution overview. */
+html:root body.premium-v11[data-v14-home] .v14-product-index{gap:20px;}
+html:root body.premium-v11[data-v14-home] .v14-product-index a{
+  background:#FFFFFF;border:1px solid #DCE4F1;border-radius:16px;
+  padding:28px 24px;min-height:132px;
+  box-shadow:0 4px 16px rgba(17,30,53,.04);
+  transition:background .18s,border-color .18s,box-shadow .18s;
+}
+html:root body.premium-v11[data-v14-home] .v14-product-index a:hover{
+  background:#F7F9FC;border-color:#2458F6;box-shadow:0 6px 20px rgba(17,30,53,.08);
+}
+@media(max-width:760px){
+  html:root body.premium-v11[data-v14-home] .v14-product-index{gap:14px;}
+  html:root body.premium-v11[data-v14-home] .v14-product-index a{padding:24px 20px;min-height:112px;}
+}
+html:root body.premium-v11[data-v14-home] .v14-product-icon{
+  display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;
+  border-radius:12px;background:#EDF2FF;
+}
+html:root body.premium-v11[data-v14-home] .v14-product-icon img{
+  display:block;width:28px;height:28px;object-fit:contain;
+}
+@media(min-width:761px) and (max-width:1100px){
+  html:root body.premium-v11[data-v14-home] .v14-product-index a{flex-wrap:wrap;}
+  html:root body.premium-v11[data-v14-home] .v14-product-icon{flex-basis:48px;}
+  html:root body.premium-v11[data-v14-home] .v14-product-index a>span:nth-child(2){flex-basis:calc(100% - 64px);}
+}
+/* Stronger separation for the ContentAssist flow cards. */
+html:root body.premium-v11[data-v14-home] .v11-content-step{
+  background:#FFFFFF;border-color:#BDCBDD;
+  box-shadow:0 4px 16px rgba(17,30,53,.06);
+}
+html:root body.premium-v11[data-v14-home] .v11-content-step.is-emphasized{
+  background:#DFE8FF;border-color:#2458F6;
+}
+/* Separate PatientAssist panels and conversation bubbles from their surroundings. */
+html:root body.premium-v11[data-v14-home] :is(.v11-patient-principles>li,.v11-conversation){
+  background:#FFFFFF;border-color:#BDCBDD;
+  box-shadow:0 4px 16px rgba(17,30,53,.06);
+}
+html:root body.premium-v11[data-v14-home] .v11-chat-message.is-patient{background:#e3eaf2;}
+html:root body.premium-v11[data-v14-home] .v11-chat-message.is-assistant{background:#DFE8FF;}
+html:root body.premium-v11[data-v14-home] .v11-patient-number{background:#DFE8FF;}

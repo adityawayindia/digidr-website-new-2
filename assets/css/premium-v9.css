@@ -1,15 +1,11 @@
-/* DigiDr v9: the approved framed emblem, consistent navigation and quieter heroes. */
+/* DigiDr v9: the original brand logo, consistent navigation and quieter heroes. */
 body.premium-v9 .logo {
   --brand-width:170px;
   position:relative;display:inline-flex;align-items:center;flex:0 0 auto;
   width:var(--brand-width);max-width:100%;padding:5px 0;
   border:0;border-radius:0;background:#FFFFFF;line-height:1;
 }
-body.premium-v9 .logo::before {
-  content:"";position:absolute;left:0;top:5px;bottom:5px;
-  width:calc(var(--brand-width) * .322);border:1px solid #2458F6;
-  border-radius:7px;pointer-events:none;
-}
+body.premium-v9 .logo::before {content:none}
 body.premium-v9 .official-brand-logo {
   display:block;width:var(--brand-width);max-width:100%;height:auto;
   aspect-ratio:500/136;object-fit:contain;object-position:center;
@@ -116,4 +112,75 @@ body.premium-v9 .v9-policy-diagram.is-tracing .v9-policy-flow li {animation:v9-p
 }
 @media(prefers-reduced-motion:reduce){
   body.premium-v9 .v9-policy-diagram.is-tracing .v9-policy-flow li{animation:none}
+}
+
+/* Outlined login pill for desktop and mobile navigation. */
+html:root body.premium-v9 .site-header :is(.nav-signin,.nav-signin-mobile){
+  align-items:center;justify-content:center;min-height:46px;padding:10px 22px;
+  border:1px solid currentColor;border-radius:999px;color:#111E35;
+  font-size:15px;font-weight:600;line-height:1.4;text-decoration:none;white-space:nowrap;
+}
+html:root body.premium-v9 .site-header :is(.nav-signin,.nav-signin-mobile):hover{
+  background:#e3eaf2;color:#111E35;
+}
+html:root body.premium-v9 .site-header :is(.nav-signin,.nav-signin-mobile):focus-visible{
+  outline:3px solid #2458F6;outline-offset:3px;
+}
+html:root body.premium-v9 .site-header .nav-signin-mobile{width:fit-content;}
+
+/* A compact, inset navigation panel for mobile and tablet screens. */
+@media(max-width:1120px){
+  html:root body.premium-v9 .site-header .nav-links{
+    top:calc(var(--header-height) + 10px);left:12px;right:12px;
+    max-height:calc(100dvh - var(--header-height) - 24px);
+    padding:12px;gap:4px;margin:0;background:#FFFFFF;
+    border:1px solid #DCE4F1;border-radius:20px;
+    box-shadow:0 16px 40px rgba(17,30,53,.16);
+    overscroll-behavior:contain;
+  }
+  html:root body.premium-v9 .site-header .nav-links.open{animation:mobile-nav-in .18s ease-out;}
+  html:root body.premium-v9 .site-header .nav-links>a,
+  html:root body.premium-v9 .site-header .nav-dropdown>summary{
+    display:flex;align-items:center;min-height:50px;width:100%;
+    margin:0;padding:13px 16px;border:0;border-radius:12px;
+    color:#111E35;background:transparent;font-size:17px;font-weight:550;
+    line-height:1.4;letter-spacing:-.02em;text-decoration:none;
+  }
+  html:root body.premium-v9 .site-header .nav-links>a::after,
+  html:root body.premium-v9 .site-header .nav-dropdown>summary::after{display:none;}
+  html:root body.premium-v9 .site-header .nav-links>a:hover,
+  html:root body.premium-v9 .site-header .nav-dropdown>summary:hover{background:#F1F5F9;}
+  html:root body.premium-v9 .site-header .nav-links>a[aria-current="page"],
+  html:root body.premium-v9 .site-header .nav-dropdown[data-current="true"]>summary{
+    color:#2458F6;background:#EDF2FF;font-weight:650;text-decoration:none;
+  }
+  html:root body.premium-v9 .site-header .nav-dropdown>summary{justify-content:space-between;}
+  html:root body.premium-v9 .site-header .platform-menu{
+    position:static;width:auto;margin:4px 0 8px;padding:6px;
+    background:#F7F9FC;border:1px solid #DCE4F1;border-radius:14px;box-shadow:none;
+  }
+  html:root body.premium-v9 .site-header .platform-menu a{
+    padding:12px;border:0;border-radius:9px;white-space:normal;text-decoration:none;
+  }
+  html:root body.premium-v9 .site-header .platform-menu strong{font-size:15px;}
+  html:root body.premium-v9 .site-header .platform-menu span{font-size:12px;line-height:1.5;}
+  html:root body.premium-v9 .site-header .nav-actions>.nav-signin{display:none;}
+  html:root body.premium-v9 .site-header .nav-links>.nav-signin-mobile{
+    display:flex;width:100%;min-height:48px;margin:8px 0 0;
+    padding:12px 20px;border:1px solid #BDCBDD;border-radius:999px;
+    background:#F1F5F9;color:#111E35;font-size:15px;font-weight:600;
+  }
+  html:root body.premium-v9 .site-header .menu-btn{position:relative;border-radius:14px;}
+  html:root body.premium-v9 .site-header .menu-btn[aria-expanded="true"]{background:#EDF2FF;border-color:#BDCBDD;}
+  html:root body.premium-v9 .site-header .menu-btn[aria-expanded="true"] svg{visibility:hidden;}
+  html:root body.premium-v9 .site-header .menu-btn[aria-expanded="true"]::before,
+  html:root body.premium-v9 .site-header .menu-btn[aria-expanded="true"]::after{
+    content:"";position:absolute;left:50%;top:50%;width:18px;height:2px;
+    border-radius:2px;background:currentColor;transform:translate(-50%,-50%) rotate(45deg);
+  }
+  html:root body.premium-v9 .site-header .menu-btn[aria-expanded="true"]::after{transform:translate(-50%,-50%) rotate(-45deg);}
+}
+@keyframes mobile-nav-in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){
+  html:root body.premium-v9 .site-header .nav-links.open{animation:none;}
 }

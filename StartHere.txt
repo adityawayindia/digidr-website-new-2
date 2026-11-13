@@ -18,8 +18,8 @@ The supplied outline avatars and carousel controls are included.
 
 The HTML, CSS and JavaScript in this package are directly editable.
 No build step is required. The homepage is index.html; its opening styles are
-in assets/css/hero-layout-v13.css. The displayed black and royal blue logo is
-assets/brand/digidr-logo-royal.svg. General Sans Semibold is included locally
+in assets/css/hero-layout-v13.css. The displayed original logo is
+assets/brand/digidr-logo.png. General Sans Semibold is included locally
 with its license and source information in assets/fonts/.
 
 RELEASE-MANIFEST.json records the byte count and SHA256 of every included file.

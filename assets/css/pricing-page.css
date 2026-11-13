@@ -1,0 +1,87 @@
+/* Standalone pricing page, using the site's shared header and plan components. */
+html:root body.pricing-page .doctor-pricing-section{padding:64px 0 52px;background:#F7F9FC;border-top:0;}
+body.pricing-page .doctor-section-heading{align-items:end;gap:48px;margin-bottom:38px;}
+body.pricing-page .doctor-kicker{color:#2458F6;font-family:var(--font-sans);font-size:12px;letter-spacing:.1em;}
+body.pricing-page h1.pricing-title{font-size:clamp(40px,4.8vw,68px);font-weight:600;letter-spacing:-.055em;line-height:1.08;margin:0;}
+body.pricing-page h1.pricing-title em{font-style:normal;color:#2458F6;}
+body.pricing-page .doctor-section-heading>p{font-size:17px;line-height:1.7;max-width:480px;}
+body.pricing-page .doctor-pricing-controls{flex-wrap:wrap;}
+html:root body.pricing-page .doctor-billing-toggle{background:#e3eaf2;border-color:#CCD7E5;}
+body.pricing-page .doctor-billing-toggle button{font:inherit;font-size:15px;font-weight:600;padding:13px 22px;}
+body.pricing-page .doctor-billing-toggle button span{font-size:12px;}
+html:root body.pricing-page .doctor-billing-toggle button.is-active{background:#2458F6;color:#FFFFFF;box-shadow:0 3px 8px rgba(36,88,246,.15);}
+body.pricing-page .doctor-text-link{font-size:15px;}
+body.pricing-page .doctor-pricing-explainer{font-size:14px;line-height:1.7;min-height:48px;max-width:870px;margin-bottom:24px;}
+body.pricing-page .doctor-plans{gap:18px;align-items:stretch;}
+html:root body.pricing-page .doctor-plan{background:#FFFFFF;border-color:#BDCBDD;padding:26px 22px;box-shadow:0 4px 20px rgba(17,30,53,.04);}
+html:root body.pricing-page .doctor-plan.is-featured{background:#DFE8FF;border:2px solid #2458F6;padding:25px 21px;}
+body.pricing-page .doctor-plan-top{flex-wrap:wrap;min-height:58px;align-content:center;align-items:center;gap:6px 10px;}
+body.pricing-page .doctor-plan h2{font-size:25px;line-height:1.2;letter-spacing:-.035em;font-weight:600;margin:0;}
+body.pricing-page .doctor-plan-label{font-size:10px;padding:5px 8px;}
+body.pricing-page .doctor-plan-tagline{font-size:15px;line-height:1.6;min-height:48px;margin:12px 0 22px;}
+body.pricing-page .doctor-price strong{font-size:clamp(32px,3vw,42px);font-weight:600;line-height:1.2;min-height:51px;}
+body.pricing-page .doctor-price span{font-size:13px;min-height:21px;}
+body.pricing-page .doctor-plan-billing{font-size:14px;min-height:48px;line-height:1.6;}
+body.pricing-page .doctor-plan-standard{font-size:12px;min-height:58px;line-height:1.7;}
+body.pricing-page .doctor-plan .doctor-button{font-size:15px;border-radius:999px;min-height:48px;}
+body.pricing-page .doctor-plan li{font-size:14px;line-height:1.65;padding-left:22px;margin:12px 0;}
+body.pricing-page .doctor-plan li::before{font-size:13px;}
+html:root body.pricing-page .doctor-shared-plan-note{background:#e3eaf2;border-color:#CCD7E5;padding:18px 22px;}
+body.pricing-page .doctor-shared-plan-note p{font-size:14px;}
+html:root body.pricing-page .doctor-comparison{background:#FFFFFF;border-color:#BDCBDD;}
+body.pricing-page .doctor-comparison>summary{font-size:19px;padding:24px;}
+body.pricing-page .doctor-table-scroll table{min-width:850px;}
+body.pricing-page .doctor-table-scroll :is(th,td){font-size:14px;line-height:1.6;padding:17px 20px;}
+html:root body.pricing-page .doctor-table-scroll thead th{background:#e3eaf2;color:#111E35;}
+body.pricing-page .doctor-table-scroll tbody tr:nth-child(even){background:#F7F9FC;}
+body.pricing-page .doctor-table-scroll caption{font-size:13px;padding:18px 20px;}
+body.pricing-page .doctor-pricing-source{font-size:12px;line-height:1.7;margin-top:22px;}
+body.pricing-page .doctor-commercial-links{font-size:12px;line-height:1.7;flex-wrap:wrap;}
+body.pricing-page .pricing-faqs{padding:64px 0;background:#FFFFFF;}
+body.pricing-page .pricing-faq-heading{display:flex;justify-content:space-between;gap:32px;align-items:end;margin-bottom:28px;}
+body.pricing-page .pricing-faq-heading h2,body.pricing-page .pricing-start h2{font-size:clamp(30px,3.2vw,44px);line-height:1.15;letter-spacing:-.04em;margin:0;font-weight:600;}
+body.pricing-page .pricing-faq-heading>p{font-size:16px;line-height:1.7;color:#59677F;max-width:370px;margin:0;}
+body.pricing-page .pricing-faq-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;}
+body.pricing-page .pricing-faq{background:#F7F9FC;border:1px solid #CCD7E5;border-radius:12px;overflow:hidden;}
+body.pricing-page .pricing-faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;padding:22px;font-size:17px;font-weight:600;line-height:1.5;}
+body.pricing-page .pricing-faq summary::-webkit-details-marker{display:none;}
+body.pricing-page .pricing-faq summary::after{content:'+';font-size:23px;font-weight:400;color:#2458F6;line-height:1;}
+body.pricing-page .pricing-faq[open] summary::after{content:'−';}
+body.pricing-page .pricing-faq p{font-size:15px;line-height:1.75;color:#59677F;padding:0 22px 22px;margin:0;}
+body.pricing-page .pricing-start{background:#e3eaf2;padding:48px 0;scroll-margin-top:110px;}
+body.pricing-page .pricing-start-layout{display:flex;justify-content:space-between;align-items:center;gap:32px;}
+body.pricing-page .pricing-start p{font-size:16px;line-height:1.7;color:#59677F;max-width:650px;margin:16px 0 0;}
+body.pricing-page .pricing-start [data-selected-plan]{font-weight:600;color:#111E35;}
+body.pricing-page .pricing-start-actions{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:15px;}
+body.pricing-page .pricing-start-actions .doctor-button{border-radius:999px;}
+body.pricing-page .pricing-start-actions>a:last-child{font-size:14px;text-underline-offset:4px;}
+body.pricing-page :is(.pricing-faq summary,.doctor-comparison summary):focus-visible{outline:3px solid #2458F6;outline-offset:-4px;}
+@media(max-width:1100px){
+  body.pricing-page .doctor-plans{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+  body.pricing-page .doctor-plan-top{min-height:32px;}
+  body.pricing-page .doctor-price strong{font-size:42px;}
+  body.pricing-page .doctor-plan-tagline{min-height:0;}
+  body.pricing-page .doctor-plan-billing{min-height:24px;}
+  body.pricing-page .doctor-plan-standard{min-height:42px;}
+}
+@media(max-width:760px){
+  html:root body.pricing-page .doctor-pricing-section{padding:40px 0;}
+  body.pricing-page .doctor-section-heading{gap:22px;}
+  body.pricing-page .doctor-pricing-controls{align-items:start;gap:20px;}
+  body.pricing-page .doctor-billing-toggle{width:100%;}
+  body.pricing-page .doctor-billing-toggle button{flex:1;padding:12px 10px;}
+  body.pricing-page .doctor-billing-toggle button span{font-size:11px;}
+  body.pricing-page .doctor-pricing-explainer{min-height:0;}
+  body.pricing-page .pricing-faqs{padding:40px 0;}
+  body.pricing-page .pricing-faq-heading{display:block;}
+  body.pricing-page .pricing-faq-heading>p{margin-top:16px;}
+  body.pricing-page .pricing-faq-grid{grid-template-columns:1fr;}
+  body.pricing-page .pricing-start-layout{flex-direction:column;align-items:start;gap:24px;}
+  body.pricing-page .pricing-start-actions{align-items:start;}
+}
+@media(max-width:540px){
+  body.pricing-page .doctor-plans{grid-template-columns:1fr;}
+  body.pricing-page .doctor-plan-standard{min-height:0;}
+  body.pricing-page .doctor-shared-plan-note{align-items:start;}
+  body.pricing-page .doctor-wrap{width:calc(100% - 36px);}
+}

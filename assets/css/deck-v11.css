@@ -31,8 +31,8 @@ body.premium-v11{--font-sans:'Inter',sans-serif;--font-display:'Inter Display','
 .premium-v11 .v11-button>span{font-size:20px}
 .premium-v11 .v11-chapter-label{display:flex;align-items:center;gap:18px;font-size:17px;font-weight:550;letter-spacing:-.01em;margin:0 0 40px}
 .premium-v11 .v11-chapter-label>span:first-child{width:34px;height:34px;display:grid;place-items:center;border:1px solid currentColor;border-radius:50%;font-size:12px;font-weight:650}
-.premium-v11 .v11-problem{background:#FFF6D5;color:#111E35}
-.premium-v11 .v11-problem h2{font-size:clamp(48px,5.8vw,80px);line-height:1.025;letter-spacing:-.06em;max-width:1050px;margin:0;font-weight:530}
+.premium-v11 .v11-problem{background:#F7F9FC;color:#111E35}
+.premium-v11 .v11-problem h2{font-size:clamp(48px,5.8vw,80px);line-height:1.025;letter-spacing:-.06em;max-width:none;width:100%;margin:0;font-weight:530}
 .premium-v11 .v11-problem-lede{max-width:760px;font-size:23px;line-height:1.55;letter-spacing:-.025em;margin:34px 0 0}
 .premium-v11 .v11-proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:56px}
 .premium-v11 .v11-proof{background:#FFFFFF;color:#111E35;padding:30px;border-radius:8px;display:flex;flex-direction:column;box-shadow:none}
@@ -163,7 +163,7 @@ html:root body .v9-compare-cue::after{background-color:var(--theme-surface);bord
 html:root body :is(.v12-comparison-reading, .v11-hero-bottom){border-color:var(--theme-border);}
 html:root body .v12-comparison-reading span{color:var(--theme-ink);}
 html:root body .v12-comparison-reading p:last-child span{color:var(--theme-primary);}
-html:root body .v11-problem{background-color:var(--theme-surface);color:var(--theme-ink);}
+html:root body .v11-problem{background-color:#F7F9FC;color:var(--theme-ink);}
 html:root body .v11-problem .v11-chapter-label > span:first-child{background-color:var(--theme-accent);color:var(--theme-ink);border-color:var(--theme-accent);}
 html:root body :is(.v11-solution, .v11-doctor-story, .v10-solution){background-color:var(--theme-surface-2);color:var(--theme-ink);border-color:var(--theme-border);}
 html:root body .v14-solution-copy p{color:var(--theme-body);}
@@ -313,3 +313,18 @@ html:root body.premium-v11 .v9-policy-controls button[aria-pressed="true"],
 html:root body.premium-v11 .v9-decision-cases button[aria-pressed="true"]{background-color:transparent;color:#2458F6;border-color:#2458F6;}
 
 /* DIGIDR COLOR-ONLY OVERRIDES END */
+
+html:root body.premium-v11 .v11-problem .v11-proof{background:#e3eaf2;}
+
+/* Stack mobile statistics above their copy instead of squeezing them into a fixed column. */
+@media(max-width:760px){
+  .premium-v11 .v11-problem .v11-proof{display:flex;flex-direction:column;min-width:0;}
+  .premium-v11 .v11-problem .v11-proof>strong{
+    font-size:clamp(46px,12vw,60px);line-height:1.05;margin:0 0 20px;
+  }
+  .premium-v11 .v11-problem .v11-proof h3{max-width:none;}
+  .premium-v11 .v11-problem .v11-proof footer{width:100%;min-width:0;}
+}
+@media(max-width:540px){
+  .premium-v11 .v11-problem .v11-proof footer{grid-template-columns:minmax(0,1fr);gap:12px;}
+}
