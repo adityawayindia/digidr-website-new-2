@@ -1,0 +1,131 @@
+/* Approved homepage refinements. All later editorial chapters remain unchanged. */
+@font-face{
+  font-family:"General Sans";
+  src:url("../fonts/GeneralSans-Semibold.woff2") format("woff2");
+  font-style:normal;
+  font-weight:600;
+  font-display:swap;
+}
+.premium-v11 .v13-hero{
+  padding:clamp(46px,4.5vw,84px) 0 clamp(54px,5vw,92px);
+  min-height:0;
+  background:#FFFFFF;
+}
+.premium-v11 .v13-hero-layout{
+  /* The shared v11-wrap class owns width and gutters at every breakpoint. */
+  display:grid;
+  grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);
+  gap:clamp(30px,3.2vw,64px);
+  align-items:center;
+}
+.premium-v11 .v13-hero-copy,
+.premium-v11 .v13-hero-visual{min-width:0}
+.premium-v11 .v13-hero h1{
+  font-family:"General Sans","Inter Display","Inter",sans-serif;
+  font-size:clamp(44px,4.4vw,66px);
+  font-weight:600;
+  font-variation-settings:normal;
+  line-height:1.08;
+  letter-spacing:-.025em;
+  max-width:none;
+  margin:0;
+}
+.premium-v11 .v13-hero h1>span{display:block;text-wrap:balance}
+.premium-v11 .v16-hero-solution{
+  color:#000000;
+  font-size:clamp(17px,1.3vw,18px);
+  line-height:1.65;
+  letter-spacing:-.018em;
+  max-width:54ch;
+  margin:26px 0 0;
+}
+html:root body.premium-v11 .v13-hero .v16-hero-solution{color:#000000;font-weight:400;}
+.premium-v11 .v13-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.premium-v11 .v13-hero-button{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:52px;padding:14px 19px;border:1px solid transparent;border-radius:999px;
+  font-size:clamp(14px,1.1vw,18px);font-weight:650;line-height:1.35;
+  letter-spacing:-.025em;text-decoration:none;transition:background .18s,border-color .18s;
+}
+.premium-v11 .v13-hero-primary{background:#FFF6D5;color:#111E35}
+.premium-v11 .v13-hero-primary:hover{background:#FFF6D5}
+.premium-v11 .v13-hero-secondary{background:transparent;border-color:#7F8EA6;color:#111E35}
+.premium-v11 .v13-hero-secondary:hover{background:rgba(36, 88, 246, 0.024);border-color:#DCE4F1}
+.premium-v11 .v13-hero-button:focus-visible{outline:3px solid #DCE4F1;outline-offset:4px}
+.premium-v11 .v13-hero-promise{
+  color:#59677F;font-size:clamp(12px,.91vw,15px);line-height:1.7;
+  letter-spacing:.01em;margin:24px 0 0;max-width:56ch;
+}
+.premium-v11 .v13-hero [data-v12-illustrated-comparison]{margin:0;max-width:none}
+.premium-v11 .v13-hero .compare{
+  aspect-ratio:1.5;border-radius:22px;border:1px solid #7F8EA6;
+  background:#FFFFFF;scroll-margin-top:110px;
+}
+.premium-v11 .v13-hero .layer.after .v12-comparison-canvas img{filter:url(#digidr-hero-yellow);}
+html:root body.premium-v11 .v13-hero .v12-evidence-label{background-color:#FFE28A;color:#111111;}
+.premium-v11 .v13-hero .compare .label{top:22px;font-size:11px;font-weight:600;letter-spacing:.065em}
+.premium-v11 .v13-hero .compare .before-label{left:24px}
+.premium-v11 .v13-hero .compare .after-label{right:24px}
+.premium-v11 .v13-hero .compare .divider{width:2px;background:#F5F8FF}
+.premium-v11 .v13-hero .compare .handle{
+  width:44px;height:44px;background:#FFFFFF;color:#111E35;
+  border:1px solid #DCE4F1;box-shadow:0 2px 12px rgba(17, 30, 53, 0.04);font-size:23px;
+}
+.premium-v11 .v13-hero .v8-walk-track{height:70px}
+.premium-v11 .v13-hero .v8-walker{top:20px}
+.premium-v11 .v13-hero .v8-slider-pole{height:44px}
+.premium-v11 .v13-hero .v8-motion-controls{
+  display:grid;grid-template-columns:1fr auto;gap:12px 20px;
+  align-items:center;padding-top:14px;
+}
+.premium-v11 .v13-hero .v8-motion-controls[hidden]{display:none}
+.premium-v11 .v13-hero .v8-motion-controls>p{font-size:12px;line-height:1.5;margin:0;grid-column:1/-1}
+.premium-v11 .v13-hero .v9-compare-full-views{gap:8px}
+.premium-v11 .v13-hero .v9-compare-full-views button{
+  font-size:12px;padding:8px 10px;min-height:40px;border-radius:7px;
+}
+.premium-v11 .v13-hero .v8-motion-buttons{gap:4px}
+.premium-v11 .v13-hero .v8-motion-buttons button{font-size:12px;min-height:40px;padding:8px 10px}
+@media(min-width:1024px){
+  .premium-v11 .v13-hero-layout{align-items:start}
+  .premium-v11 .v13-hero-visual{
+    /* Grow into the outer gutter without changing the text column or scaling controls.
+       Reserve 64px against viewport units to leave room for the page scrollbar. */
+    --hero-visual-extra-room:max(0px,calc((100vw - 1240px)/2 - 64px));
+    width:min(120%,calc(100% + var(--hero-visual-extra-room)));
+  }
+}
+@media(min-width:1680px){
+  .premium-v11 .v13-hero .v8-motion-controls{grid-template-columns:1fr auto auto;gap:12px}
+  .premium-v11 .v13-hero .v8-motion-controls>p{grid-column:auto;font-size:13px}
+}
+@media(max-width:1023px){
+  .premium-v11 .v13-hero{padding:44px 0 60px}
+  .premium-v11 .v13-hero-layout{grid-template-columns:1fr;gap:40px}
+  .premium-v11 .v13-hero h1{font-size:clamp(43px,7.2vw,64px);line-height:1.08}
+  .premium-v11 .v16-hero-solution{font-size:17px;max-width:58ch;margin-top:26px}
+  .premium-v11 .v13-hero-actions{margin-top:26px}
+  .premium-v11 .v13-hero-button{font-size:16px}
+  .premium-v11 .v13-hero-promise{font-size:13px;margin-top:22px}
+  .premium-v11 .v13-hero .compare{aspect-ratio:1.5}
+}
+@media(max-width:600px){
+  .premium-v11 .v13-hero{padding:34px 0 48px}
+  .premium-v11 .v13-hero-layout{gap:32px}
+  .premium-v11 .v13-hero h1{font-size:clamp(32px,8.8vw,44px);letter-spacing:-.025em;line-height:1.1}
+  .premium-v11 .v16-hero-solution{font-size:16px;line-height:1.65;margin-top:23px}
+  .premium-v11 .v13-hero-actions{gap:10px;margin-top:24px}
+  .premium-v11 .v13-hero-button{width:100%;font-size:15px;min-height:50px}
+  .premium-v11 .v13-hero-promise{font-size:12px;line-height:1.7;margin-top:20px;max-width:38ch}
+  .premium-v11 .v13-hero .compare{border-radius:13px}
+  .premium-v11 .v13-hero .compare .label{top:13px;font-size:9px}
+  .premium-v11 .v13-hero .compare .before-label{left:15px}
+  .premium-v11 .v13-hero .compare .after-label{right:15px}
+  .premium-v11 .v13-hero .compare .handle{width:38px;height:38px;font-size:20px}
+  .premium-v11 .v13-hero .v8-walk-track{height:70px}
+  .premium-v11 .v13-hero .v8-motion-controls{gap:10px 6px}
+  .premium-v11 .v13-hero .v9-compare-full-views{gap:5px}
+  .premium-v11 .v13-hero .v9-compare-full-views button{font-size:11px;padding-inline:8px}
+  .premium-v11 .v13-hero .v8-motion-buttons button{font-size:11px;padding-inline:7px;min-width:44px}
+}
+@media(prefers-reduced-motion:reduce){.premium-v11 .v13-hero-button{transition:none}}

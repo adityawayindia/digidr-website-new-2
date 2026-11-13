@@ -1,0 +1,25 @@
+DigiDr Website: Version 16.0.0
+
+START HERE
+
+1. Extract the entire ZIP into a folder. Do not open index.html from inside
+   the ZIP preview, and do not separate it from the assets folder.
+2. Open index.html in Chrome, Safari, Edge or Firefox for a quick local review.
+3. To publish, upload the contents of this folder to your static website host.
+   Keep all subfolders and relative paths intact.
+
+This package contains the website and local visual assets. External app,
+registration, email and reference links require an internet connection.
+The static website does not create real appointments or process payments.
+
+The main homepage includes the three Doctor stories after DoctorAssist and
+before Research. Open index.html#doctor-stories to jump to the carousel.
+The supplied outline avatars and carousel controls are included.
+
+The HTML, CSS and JavaScript in this package are directly editable.
+No build step is required. The homepage is index.html; its opening styles are
+in assets/css/hero-layout-v13.css. The displayed black and royal blue logo is
+assets/brand/digidr-logo-royal.svg. General Sans Semibold is included locally
+with its license and source information in assets/fonts/.
+
+RELEASE-MANIFEST.json records the byte count and SHA256 of every included file.

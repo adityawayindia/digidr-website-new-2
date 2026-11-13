@@ -1,0 +1,10 @@
+General Sans Semibold, weight 600, normal style
+Publisher: Indian Type Foundry / Fontshare
+Official family: https://www.fontshare.com/fonts/general-sans
+Official CSS: https://api.fontshare.com/v2/css?f[]=general-sans@600&display=swap
+Original WOFF2: https://cdn.fontshare.com/wf/K46YRH762FH3QJ25IQM3VAXAKCHEXXW4/ISLWQPUZHZF33LRIOTBMFOJL57GBGQ4B/3ZLMEXZEQPLTEPMHTQDAUXP5ZZXCZAEN.woff2
+License: ITF Free Font License (FFL), Version 2.0 - 17 Aug 2026
+License page: https://www.fontshare.com/licenses/itf-ffl
+
+The WOFF2 file is the unchanged official file downloaded for use on DigiDr's own website. Do not subset, convert, alter or offer it as a selectable font to third parties. Third-party contractors who need the font for their own use should obtain their own copy from Fontshare. See the accompanying full license.
+SHA256: 94a2a0e1ef59728eb65498ed7fe26e5af7e2858a3a4a278a89ac1f83a0544945
